@@ -11,7 +11,7 @@ class FirstView extends StatelessWidget {
         centerTitle: true,
         elevation: 0,
       ),
-      body: const Text('Hello WOrld'),
+      body: const Text('Hello World'),
     );
   }
 }
