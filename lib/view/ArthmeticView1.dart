@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ArithmeticView extends StatefulWidget {
-  const ArithmeticView({super.key});
+class ArithmeticView1 extends StatefulWidget {
+  const ArithmeticView1({super.key});
 
   @override
   ArithmeticViewState createState() => ArithmeticViewState();
 }
 
-class ArithmeticViewState extends State<ArithmeticView> {
+class ArithmeticViewState extends State<ArithmeticView1> {
   int _firstNumber = 0;
   int _secondNumber = 0;
   int _result = 0;
