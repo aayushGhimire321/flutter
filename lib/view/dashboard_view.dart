@@ -1,8 +1,10 @@
-import 'package:batch33/view/arithmetic_view.dart';
-import 'package:batch33/view/first_view.dart';
-import 'package:batch33/view/rich_text_view.dart';
-import 'package:batch33/view/si_view.dart';
+
+import 'package:first_flutter_project/view/ArthmeticView1.dart';
+import 'package:first_flutter_project/view/si_view.dart';
 import 'package:flutter/material.dart';
+
+import 'first_view.dart';
+import 'rich_text_view.dart';
 
 class DashboardView extends StatelessWidget {
   const DashboardView({super.key});
@@ -25,7 +27,7 @@ class DashboardView extends StatelessWidget {
             child: InkWell(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return const ArithmeticView();
+                  return const ArithmeticView1();
                 }));
               },
               child: const Column(
