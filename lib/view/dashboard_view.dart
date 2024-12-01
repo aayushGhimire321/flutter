@@ -1,5 +1,6 @@
 
 import 'package:first_flutter_project/view/ArthmeticView1.dart';
+import 'package:first_flutter_project/view/column_view.dart';
 import 'package:first_flutter_project/view/si_view.dart';
 import 'package:flutter/material.dart';
 
@@ -50,7 +51,7 @@ class DashboardView extends StatelessWidget {
             child: InkWell(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return const SiView();
+                  return SimpleInterestScreen();
                 }));
               },
               child: const Column(
@@ -108,6 +109,29 @@ class DashboardView extends StatelessWidget {
                   ),
                   Text(
                     'Rich Text View',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Card(
+            color: Colors.green[100],
+            child: InkWell(
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return const column_view();
+                }));
+              },
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.calculate,
+                    size: 30,
+                  ),
+                  Text(
+                    'Column View',
                     style: TextStyle(fontSize: 20),
                   ),
                 ],

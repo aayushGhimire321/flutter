@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class _ColumnScreenState extends StatelessWidget {
-  const _ColumnScreenState({super.key});
+class column_view extends StatelessWidget {
+  const column_view({super.key});
 
   @override
   Widget build(BuildContext context) {
