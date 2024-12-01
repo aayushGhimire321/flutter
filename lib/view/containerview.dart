@@ -9,11 +9,22 @@ class containerview extends StatelessWidget {
       backgroundColor: Colors.amber[50],
       body: SafeArea(
           child: Container(
-            width: 200,
-            height: 200,
-            color: Colors.amberAccent,
-            child: const Text('I am a container'),
-      ),
+            alignment: Alignment.bottomRight,
+            child: Container(
+              width: 200,
+              height: 200,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.amberAccent,
+                border: Border.all(
+                  color: Colors.black,
+                  width: 2,
+                )
+              ),
+              child: const Text('I am a container'),
+                  ),
+          ),
       ),
     );
   }
