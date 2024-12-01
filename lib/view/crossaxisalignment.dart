@@ -12,7 +12,7 @@ class _columnScreenState extends StatelessWidget {
         width: double.infinity,
         color: Colors.yellow,
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ElevatedButton(onPressed: () {}, child: const Text('Button 1')),
             ElevatedButton(onPressed: () {}, child: const Text('Button 2')),
