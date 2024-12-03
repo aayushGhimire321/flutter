@@ -8,15 +8,18 @@ class flexible extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-        Container(
-          height: 400,
-          width: double.infinity,
-          color: Colors.yellow,
+        Expanded(
+          child: Container(
+            
+            height: 400,
+            width: double.infinity,
+            color: Colors.yellow,
+          ),
         ),
           Expanded(
             // fit: FlexFit.tight,
             child: Container(
-              height: 300,
+              // height: 300,
               color: Colors.green,
               alignment: Alignment.center,
             ),
