@@ -13,8 +13,8 @@ class flexible extends StatelessWidget {
           width: double.infinity,
           color: Colors.yellow,
         ),
-          Flexible(
-            fit: FlexFit.tight,
+          Expanded(
+            // fit: FlexFit.tight,
             child: Container(
               height: 300,
               color: Colors.green,
