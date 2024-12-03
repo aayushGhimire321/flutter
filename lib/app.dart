@@ -1,4 +1,5 @@
 
+import 'package:first_flutter_project/view/class_exercise.dart';
 import 'package:first_flutter_project/view/flexible_expended_view.dart';
 import 'package:first_flutter_project/view/snackbar.dart';
 import 'package:flutter/material.dart';
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return    const MaterialApp(
+    return    MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:SnackBarView(),
+      home:Classwork(),
     );
   }
 }

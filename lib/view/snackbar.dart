@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SnackBarView extends StatelessWidget {
-  const SnackBarView({super.key});
+  const SnackBarView({super.key, required Text content, required Duration duration, required Color backgroundColor, required SnackBarBehavior behavior});
 
   @override
   Widget build(BuildContext context) {
