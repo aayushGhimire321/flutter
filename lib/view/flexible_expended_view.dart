@@ -17,7 +17,7 @@ class flexible extends StatelessWidget {
             fit: FlexFit.tight,
             child: Container(
               height: 300,
-              color: Colors.black,
+              color: Colors.green,
               alignment: Alignment.center,
             ),
           ),
