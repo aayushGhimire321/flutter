@@ -8,9 +8,10 @@ class flexible extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-        Expanded(
+        Flexible(
+          flex:1,
           child: Container(
-            
+
             height: 400,
             width: double.infinity,
             color: Colors.yellow,
@@ -18,6 +19,7 @@ class flexible extends StatelessWidget {
         ),
           Expanded(
             // fit: FlexFit.tight,
+            flex: 2,
             child: Container(
               // height: 300,
               color: Colors.green,
