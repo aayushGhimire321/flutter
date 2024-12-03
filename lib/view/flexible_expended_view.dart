@@ -9,14 +9,16 @@ class flexible extends StatelessWidget {
       body: Column(
         children: [
         Container(
-          height: 700,
+          height: 400,
           width: double.infinity,
           color: Colors.yellow,
         ),
           Flexible(
+            fit: FlexFit.tight,
             child: Container(
               height: 300,
               color: Colors.black,
+              alignment: Alignment.center,
             ),
           ),
       ],
